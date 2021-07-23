@@ -1,0 +1,57 @@
+-- MySQL dump 10.13  Distrib 8.0.22, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: androidprojekt
+-- ------------------------------------------------------
+-- Server version	8.0.22
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `coaches`
+--
+
+LOCK TABLES `coaches` WRITE;
+/*!40000 ALTER TABLE `coaches` DISABLE KEYS */;
+INSERT INTO `coaches` VALUES (139,'BSJ@gmail.com','asdf123','BSJ','+49 12394935','BSJ#1234'),(140,'IoannisLoucas@gmail.com','asdf123','Ioannis Loucas','+49 1238432','fogged#3347'),(141,'lizZard@gmail.com','asdf123','lizZard','+49 32323423','lizZard#3577'),(143,'reinforce@gmail.com','asdf123','reinforce','+49 3455435','reinforce#3577'),(144,'Stylosa@gmail.com','asdf123','Stylosa','+49 12343245','Stylosa#3997'),(145,'RichW@gmail.com','asdf123','Rich W Campbell','+49 768678','Campbell#3997');
+/*!40000 ALTER TABLE `coaches` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `sessions`
+--
+
+LOCK TABLES `sessions` WRITE;
+/*!40000 ALTER TABLE `sessions` DISABLE KEYS */;
+INSERT INTO `sessions` VALUES (115,139,NULL,'2021-08-10','13:00:00','15:00:00','dota2',NULL),(116,139,NULL,'2021-08-12','15:00:00','17:00:00','dota2',NULL),(117,139,NULL,'2021-08-15','12:00:00','14:00:00','dota2',NULL),(121,139,NULL,'2021-08-24','14:00:00','16:00:00','dota2',NULL),(122,140,5,'2021-07-24','13:00:00','14:00:00','dota2',NULL),(123,140,5,'2021-07-26','15:00:00','16:00:00','dota2',NULL),(124,140,5,'2021-07-29','11:00:00','12:00:00','dota2',NULL),(125,141,NULL,'2021-08-17','10:00:00','11:00:00','dota2',NULL),(126,140,NULL,'2021-07-30','17:00:00','18:00:00','dota2',NULL),(127,143,NULL,'2021-08-18','16:00:00','17:00:00','overwatch',NULL),(128,144,NULL,'2021-08-19','14:00:00','15:00:00','overwatch',NULL),(129,144,NULL,'2021-08-20','12:00:00','13:00:00','overwatch',NULL),(130,145,NULL,'2021-08-26','12:00:00','13:00:00','wow',NULL),(131,145,NULL,'2021-08-28','14:00:00','16:00:00','wow',NULL),(132,145,NULL,'2021-08-30','11:00:00','12:00:00','wow',NULL);
+/*!40000 ALTER TABLE `sessions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `students`
+--
+
+LOCK TABLES `students` WRITE;
+/*!40000 ALTER TABLE `students` DISABLE KEYS */;
+INSERT INTO `students` VALUES (3,NULL,'$2b$10$irIXhYjTloUvb9AKx9JQVeCoVPc9iI8Xac.iwU2/YOYGSyOR1V9Ne','asdf@gmail.com'),(5,NULL,'$2b$10$oulnP9r4w8Dp8qH.p/cyFOUsT7vPNSQCvRQXzcBMxv4mqJTb2lR6W','xyz@gmail.com');
+/*!40000 ALTER TABLE `students` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2021-07-19 17:57:08
