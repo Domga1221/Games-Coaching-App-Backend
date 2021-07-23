@@ -12,4 +12,4 @@
  
  <h2>Uses MySQL as database-technology</h2>
  <p>Make sure to edit the db.config.js file</p>
- <p>Scripts are provided in the folder Scripts</p>
+ <p>Scripts are provided in the folder MYSQL_Script</p>
